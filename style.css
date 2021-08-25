@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+#header{
+    width:100%;
+    background-color:rgb(194, 204, 195);
+    height:40px;
+    margin:0 auto;
+}
+.logo{
+    
+    width:1px;
+    float: left;
+}
+.logo img{
+    width:35px;
+    margin:none;
+    margin-left:120px;
+    margin-top:4px;
+}
+#buttoncontainer{
+    margin:0 auto;
+    width:300px; 
+    padding-top:6px;
+}
+.mybutton{
+    float:left;
+    padding:3px;
+    border:1px black solid;
+    border-right:none;
+    cursor: pointer;
+}
+#output{
+    border-right:1px  solid;
+
+
+}
+.active{
+    background-color:#E8F3FF;
+}
+.highlight{
+    background-color: grey;
+}
+
+
+
+
+
+textarea{
+ 
+    width: 50%;
+    resize: none;
+    border-top: none;
+    border-color: grey;
+    border-left:none;
+}
+
+.panel{
+    padding:0;
+    float:left;
+    width:50%;
+    font-size: 15px;
+}
+
+iframe{
+    border:none;
+}
+.hidden
+{
+    display: none;
+}

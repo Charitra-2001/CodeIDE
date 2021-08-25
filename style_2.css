@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+
+    background-image: url("bg.jpeg");
+   
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    /* border: 2px red solid; */
+    width: 350px;
+    position: absolute;
+    top:35%;
+    left:60%;
+   
+
+}
+.container input{
+    margin-left:20px;
+    padding:5px;
+    padding-right: 0px;
+    width:94%;
+    background: none;
+    border:none;
+    outline: none;
+    font-size: 20px;
+}
+.container h1{
+    width:110px;
+    font-size: 30px;
+    border-bottom: 3px black solid;
+    margin-bottom: 10px;
+}
+.full{
+    border-bottom: 3px red solid;
+  
+    
+    margin-bottom: 19px;
+}
+.container button
+{
+   
+    width: 100px;
+    padding:7px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:none;
+    margin-left:30%;
+    background: none;
+    background-color: red;
+    font-weight: bold;
+}
+.container i{
+    position:relative;
+    top:25px;
+}
+.error{
+    font-size:20px;
+    color:red;
+}

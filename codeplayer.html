@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Codeplayer</title>
+        <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+        <script src="jquery-ui/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div id="header">
+            
+            <div class="logo">
+               
+                <img src="2296120.png">
+            </div>
+           
+            <div id="buttoncontainer">
+
+                <div class="mybutton active" id="html">HTML</div>
+                <div class="mybutton" id="css">CSS</div>
+                <div class="mybutton" id="java">Javascript</div>
+                <div class="mybutton active" id="output">Output</div>
+
+
+            </div>
+
+        </div>
+
+        <div id="bodycontainer">
+
+            <textarea id="htmlpanel" class="panel" placeholder="Enter your HTML code"></textarea>
+            <textarea id="csspanel" class="panel hidden" placeholder="Enter your CSS code"></textarea>
+            <textarea id="javapanel" class="panel hidden" placeholder="Enter your Javascript code"></textarea>
+            
+            <iframe id="outputpanel" class="panel"></iframe>
+        </div>
+       
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
