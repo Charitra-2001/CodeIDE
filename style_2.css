@@ -4,9 +4,9 @@
 }
 body{
 
-    background-image: url("bg.jpeg");
-   
-    background-size: cover;
+    background-image: url("Logo.webp");
+    background-repeat: no-repeat;
+    background-position: left;
     font-family: 'Noto Sans JP', sans-serif;
 }
 .container{
@@ -33,6 +33,7 @@ body{
     width:110px;
     font-size: 30px;
     border-bottom: 3px black solid;
+
     margin-bottom: 10px;
 }
 .full{
@@ -61,4 +62,15 @@ body{
 .error{
     font-size:20px;
     color:red;
+}
+#choosedate{
+    background:none;
+    width: 100px;
+    margin-bottom: 8px;
+    height: 22px;
+    font-size:medium;
+    border-radius: 10px;
+    margin-left:5px;
+    border-bottom: 2px red solid;
+    padding:3px;
 }
